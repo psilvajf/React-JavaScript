@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Bloco principal */
+  .bloco {
+    max-width: 800px;
+    background-color: rgb(214, 223, 223);
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Imagem do perfil */
+  .fotoperfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  /* Seções */
+  .section {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .section h2 {
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+  }
+  
+  /* Links */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
